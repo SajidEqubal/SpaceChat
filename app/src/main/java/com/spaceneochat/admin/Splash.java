@@ -27,6 +27,7 @@ public class Splash extends AppCompatActivity {
                 startActivity(intent);
                 finish();
             }
+            //Test my git repo
         },SPLASH_SCREEN_TIME_OUT);
     }
 }
