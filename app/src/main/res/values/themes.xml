@@ -2,4 +2,9 @@
 <resources>
 
     <style name="Theme.SpaceNeoChat" parent="android:Theme.Material.Light.NoActionBar" />
+
+
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme for the Splash activity here -->
+    </style>
 </resources>
