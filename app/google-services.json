@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "812606928100",
+    "project_id": "spacechat-c4183",
+    "storage_bucket": "spacechat-c4183.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:812606928100:android:6478f674062b55d38e28f1",
+        "android_client_info": {
+          "package_name": "com.spaceneochat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkVWPRv16OHmLkwz_ieY7x-b21NMjyZMs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
