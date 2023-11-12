@@ -35,7 +35,6 @@ public class SignIn extends AppCompatActivity {
     }
 
 
-    //Binding is not working fix this error
     private void setListeners() {
         binding.textCreateNewAccount.setOnClickListener(v ->
                 startActivity(new Intent(getApplicationContext(), SignUp.class)));
