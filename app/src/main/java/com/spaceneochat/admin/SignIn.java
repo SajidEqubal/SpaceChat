@@ -8,15 +8,12 @@ import android.util.Patterns;
 import android.view.View;
 import android.widget.Toast;
 
-import com.google.android.material.button.MaterialButton;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
-import com.spaceneochat.R;
 import com.spaceneochat.databinding.ActivitySignInBinding;
+import com.spaceneochat.screens.Home;
 import com.spaceneochat.utilities.Constants;
 import com.spaceneochat.utilities.PreferenceManger;
-
-import java.util.HashMap;
 
 public class SignIn extends AppCompatActivity {
 
@@ -63,7 +60,7 @@ public class SignIn extends AppCompatActivity {
                         preferenceManger.putString(Constants.KEY_USER_ID, documentSnapshot.getId());
                         preferenceManger.putString(Constants.KEY_NAME, documentSnapshot.getString(Constants.KEY_NAME));
                         preferenceManger.putString(Constants.KEY_IMAGE, documentSnapshot.getString(Constants.KEY_IMAGE));
-                        Intent intent = new Intent(getApplicationContext(),Home.class);
+                        Intent intent = new Intent(getApplicationContext(), Home.class);
                         intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                         startActivity(intent);
                     } else {

@@ -17,6 +17,7 @@ import android.widget.Toast;
 
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.spaceneochat.databinding.ActivitySignUpBinding;
+import com.spaceneochat.screens.Home;
 import com.spaceneochat.utilities.Constants;
 import com.spaceneochat.utilities.PreferenceManger;
 
@@ -24,7 +25,6 @@ import java.io.ByteArrayOutputStream;
 import java.io.FileNotFoundException;
 import java.io.InputStream;
 import java.util.HashMap;
-import java.util.regex.Pattern;
 
 public class SignUp extends AppCompatActivity {
     private ActivitySignUpBinding binding;

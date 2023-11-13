@@ -16,7 +16,10 @@
         android:theme="@style/Theme.SpaceNeoChat"
         tools:targetApi="31">
         <activity
-            android:name=".admin.Home"
+            android:name=".screens.UsersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".screens.Home"
             android:exported="false" />
         <activity
             android:name=".admin.SignIn"

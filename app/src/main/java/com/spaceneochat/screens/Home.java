@@ -1,4 +1,4 @@
-package com.spaceneochat.admin;
+package com.spaceneochat.screens;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -13,6 +13,7 @@ import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.FieldValue;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.messaging.FirebaseMessaging;
+import com.spaceneochat.admin.SignIn;
 import com.spaceneochat.databinding.ActivityHomeBinding;
 import com.spaceneochat.utilities.Constants;
 import com.spaceneochat.utilities.PreferenceManger;
@@ -38,6 +39,7 @@ public class Home extends AppCompatActivity {
 
     private void setListeners() {
         binding.imageSignOut.setOnClickListener(v -> signOut());
+        binding.fabNewChat.setOnClickListener(v-> startActivity(new Intent(getApplicationContext(),UsersActivity.class)));
 
 
     }
@@ -63,7 +65,7 @@ public class Home extends AppCompatActivity {
                         preferenceManger.getSting(Constants.KEY_USER_ID)
                 );
         documentReference.update(Constants.KEY_FCM_TOKEN, token)
-                .addOnSuccessListener(unused -> showToast("Token update successfully"))
+               // .addOnSuccessListener(unused -> showToast("Token update successfully"))
                 .addOnFailureListener(e -> showToast("Unable to update token"));
     }
 

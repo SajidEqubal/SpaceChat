@@ -10,6 +10,7 @@ import android.os.Handler;
 import android.view.WindowManager;
 
 import com.spaceneochat.R;
+import com.spaceneochat.screens.Home;
 import com.spaceneochat.utilities.Constants;
 
 public class Splash extends AppCompatActivity {
