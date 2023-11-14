@@ -19,7 +19,6 @@ public class ChatAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
     private final List<ChatMessage> chatMessage;
     private final Bitmap receiverProfileImage;
     private final String senderId;
-
     private static final int VIEW_TYPE_SENT = 1;
     private static final int VIEW_TYPE_RECEIVER = 2;
 
