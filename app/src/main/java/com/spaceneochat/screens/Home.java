@@ -1,6 +1,5 @@
 package com.spaceneochat.screens;
 
-import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
@@ -31,7 +30,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 
-public class Home extends AppCompatActivity implements ConversionListener {
+public class Home extends BaseActivity implements ConversionListener {
 
     private ActivityHomeBinding binding;
     private PreferenceManger preferenceManger;
