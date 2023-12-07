@@ -39,10 +39,10 @@
      <td>SignUp Screen</td>
   </tr>
   <tr>
-    <td><img src="https://github.com/SajidEqubal/SpaceChat/assets/54468833/77efe91b-673c-4224-8b46-42a205febf75" width=220 height=480></td>
-    <td><img src="https://github.com/SajidEqubal/SpaceChat/assets/54468833/77de0882-efe9-4796-911a-c198caa56dfd" width=220 height=480></td>
-    <td><img src="https://github.com/SajidEqubal/SpaceChat/assets/54468833/4979ce35-2160-441a-92f6-d966f81194e6" width=220 height=480></td>
-    <td><img src="https://github.com/SajidEqubal/SpaceChat/assets/54468833/b622ecf4-263b-457f-a1e9-29226287d5e5" width=220 height=480></td>
+    <td><img src="https://github.com/SajidEqubal/SpaceChat/assets/54468833/77efe91b-673c-4224-8b46-42a205febf75" width=220 height=420></td>
+    <td><img src="https://github.com/SajidEqubal/SpaceChat/assets/54468833/77de0882-efe9-4796-911a-c198caa56dfd" width=220 height=420></td>
+    <td><img src="https://github.com/SajidEqubal/SpaceChat/assets/54468833/4979ce35-2160-441a-92f6-d966f81194e6" width=220 height=420></td>
+    <td><img src="https://github.com/SajidEqubal/SpaceChat/assets/54468833/b622ecf4-263b-457f-a1e9-29226287d5e5" width=220 height=420></td>
   </tr>
 
    <tr>
@@ -50,8 +50,8 @@
      <td>Chat Screen</td>
   </tr>
    <tr>
-    <td><img src="https://github.com/SajidEqubal/SpaceChat/assets/54468833/237a1370-cb1b-473f-8b29-ccfc23152cd7" width=220 height=480></td>
-    <td><img src="https://github.com/SajidEqubal/SpaceChat/assets/54468833/d32c27ce-c7b5-4933-b00d-ddb105be6534" width=220 height=480></td>
+    <td><img src="https://github.com/SajidEqubal/SpaceChat/assets/54468833/237a1370-cb1b-473f-8b29-ccfc23152cd7" width=220 height=420></td>
+    <td><img src="https://github.com/SajidEqubal/SpaceChat/assets/54468833/d32c27ce-c7b5-4933-b00d-ddb105be6534" width=220 height=420></td>
   </tr>
  </table>
 
